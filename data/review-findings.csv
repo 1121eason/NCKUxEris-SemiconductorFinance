@@ -1,0 +1,13 @@
+id,topic,source_location,observation,public_treatment
+R01,Company founding,G2 PDF p4,1999 conflicts with official 1995,Use official company introduction
+R02,2023 profit,G3 Working Paper H13:H15,Nonoperating -17576 and tax 38041 yield net profit 255885,Use official consolidated -10905 and signed tax -37195 yielding 337792
+R03,Receivables turnover,G3 財務分析 K9,2023 value 5 conflicts with official 4.51,Use official 4.51
+R04,EPS comparability,G3 財務分析 F21:K21,Rounded EPS and different adjustment bases,Use 2023 annual report restated five-year EPS
+R05,Beta identity,G3 Beta係數計算參考數據 C3 and G5,Reference data identifies 5904 POYA rather than ERIS,Do not treat 0.354354 as ERIS beta
+R06,WACC inputs,G3 Working Paper AD4:AD7,Costs blank and 2.2 percent discount rate hardcoded; weights use book total liabilities and equity,Do not claim independently derived market-value WACC
+R07,NPV version,G1 PDF pp60-61 and G3 Working Paper AE13,Slides show 175229 while workbook cache shows 119713.527,Report both versions and re-discount selected workbook proxy only
+R08,Incrementality,G3 Working Paper I36:M36 and W22:AA22,Automotive revenue share and scaled company profit used as incremental contribution,Require explicit with-project versus without-project cash flows
+R09,Cash flow scope,G3 Working Paper W11:AA11 and W22:AA22,Proxy adds depreciation and subtracts change in all current assets minus all current liabilities; no subsequent capex deduction,Require operating NWC and capex plus matching cash-flow and discount-rate scope
+R10,Product mix dates,G1 PDF pp47-48 and G3 Working Paper G28:I32,Half-year management commentary and annual modeled shares mixed,Label targets and assumptions separately; do not use as audited annual mix
+R11,Peer scope,G2 PDF pp10-52,TSMC PANJIT and TASC differ in scale business model and potentially period; displayed net-profit signs conflict,Use PANJIT as contextual peer and defer unsynchronized numerical rankings
+R12,Forecast status,G1 PDF pp41-51 and G3 Working Paper I4:M32,2024 Q4 and 2025-2028 are historical forecasts; slide D&A growth description differs from workbook averages,Preserve forecast labels and document implementation difference

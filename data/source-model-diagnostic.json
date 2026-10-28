@@ -1,0 +1,35 @@
+{
+  "status": "source_model_diagnostic_not_project_valuation",
+  "unit": "NTD_thousand",
+  "source_sheet": "Working Paper",
+  "snapshot_date": "2026-10-28",
+  "discount_rate": 0.022,
+  "initial_outlay": 800000.0,
+  "cash_flow_proxy": [
+    108487.5356,
+    156034.524,
+    202638.0165,
+    233508.3388,
+    290219.5944
+  ],
+  "workbook_cached_npv": 119713.527,
+  "slide_reported_npv": 175229,
+  "source_formula_locations": {
+    "AD7": 0.022,
+    "AE13": "=AE11-AE12",
+    "W22": "=W11*I28",
+    "W24": "=W22/(1+AD7)^W23",
+    "W11": "=W4+W5-W10",
+    "I36": "=I4*I28",
+    "I28": 0.22,
+    "W10": "=W8-V8"
+  },
+  "forecast_labels": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028
+  ],
+  "timing": "source discount periods 1 through 5; historical educational forecast"
+}

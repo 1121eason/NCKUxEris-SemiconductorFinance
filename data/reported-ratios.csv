@@ -1,0 +1,6 @@
+year,current_ratio_pct,quick_ratio_pct,liabilities_assets_pct,receivables_turnover,inventory_turnover,payables_turnover,reported_collection_days,reported_inventory_days,total_asset_turnover,roe_pct,net_margin_pct,interest_coverage
+2019,120.98,86.70,55.89,4.19,4.24,6.53,87,86,0.68,9.75,7.24,13.99
+2020,108.56,76.52,60.46,4.05,4.02,6.08,90,91,0.59,8.62,6.09,9.84
+2021,125.76,91.41,59.20,4.55,4.31,6.46,80,85,0.73,28.95,15.91,27.58
+2022,137.97,103.45,53.49,4.60,3.98,6.58,79,92,0.70,33.38,20.93,27.91
+2023,119.85,96.22,50.08,4.51,3.69,7.05,81,99,0.55,22.06,19.42,14.91
